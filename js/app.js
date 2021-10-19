@@ -1,5 +1,5 @@
 const subscribeButton = document.getElementById('subscribe');
-const unsubscribeButton = document.getElementById('unsubscribe');
+const unsubscribeButton = document.getElementByClass('unsubscribe');
 //const saveandforwardButton = document.getElementById('forward');
 
 if('serviceWorker' in navigator){
